@@ -26,7 +26,7 @@ const expLogger = expPino({
 // MongoDB
 var db;
 var collection;
-var mongoConnected = false;
+var mongoConnected = true;
 
 const app = express();
 
