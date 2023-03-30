@@ -44,6 +44,7 @@ app.use((req, res, next) => {
         "asia-south1",
         "europe-west3",
         "us-east1",
+        "East US (Zone 1)",
         "us-west1"
     ];
     let span = instana.currentSpan();
