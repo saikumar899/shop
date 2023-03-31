@@ -1,5 +1,5 @@
-Version : "3.9"
-network: 
+version : "3.9"
+networks: 
  sai:
   driver: bridge
 services:
