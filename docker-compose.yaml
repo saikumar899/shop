@@ -1,6 +1,6 @@
 version : "3.9"
 networks: 
- sai:
+ shop_default:
   driver: bridge
 services:
   web:
