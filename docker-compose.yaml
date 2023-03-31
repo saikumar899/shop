@@ -7,7 +7,7 @@ services:
     image: web:v1
     container_name: web
     depends_on: 
-    -catalogue
+    - catalogue
   mongodb: 
     image: mongodb:v1
     container_name: mongodb
@@ -22,6 +22,6 @@ services:
     image: user:v1
     container_name: user
     depends_on:
-    -mongodb
-    -redis
+    - mongodb
+    - redis
 
