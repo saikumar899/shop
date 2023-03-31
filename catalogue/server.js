@@ -26,7 +26,7 @@ const expLogger = expPino({
 // MongoDB
 var db;
 var collection;
-var mongoConnected = true;
+var mongoConnected = false;
 
 const app = express();
 
@@ -44,7 +44,6 @@ app.use((req, res, next) => {
         "asia-south1",
         "europe-west3",
         "us-east1",
-        "East US (Zone 1)",
         "us-west1"
     ];
     let span = instana.currentSpan();
